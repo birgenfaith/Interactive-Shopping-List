@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .shopping-list {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .shopping-list li {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .shopping-list li.purchased {
+    text-decoration: line-through;
+    background-color: #d4edda;
+  }
+  
+  button {
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+  }
+  
+  button:hover {
+    background-color: #f0f0f0;
+  }
